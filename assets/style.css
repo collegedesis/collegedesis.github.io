@@ -31,7 +31,7 @@ body { min-height: 100%; }
 }
 
 #top {
-  background-image: url('/imgs/pic2.png');
+  background-image: url('/assets/logo.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -69,3 +69,78 @@ body { min-height: 100%; }
   color: #b2ae73; /* mustard */
 }
 .brown { color: #40210d; /* brown */}
+
+/* Letter */
+.letter {
+  max-width: 500px;
+  margin: 10px auto;
+  background-color: #f1e9d2;
+  padding: 40px 50px 75px 30px;
+  background-image: url('/assets/background.png');
+  margin-bottom: 20px;
+}
+
+.letter > * {
+  font-family: 'gloria hallelujah', cursive;
+}
+
+.letter p {
+  line-height: 1.5em;
+  font-size: 1.1em;
+  margin-bottom: 1.6em;
+  text-align: left;
+}
+
+.letter .right {
+  float: right;
+  overflow: auto;
+  font-family: 'shadows into light', cursive;
+}
+
+.letter .right > *  {
+  display: block;
+}
+.letter .right signature {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.letter .right time {
+  font-size: 0.9em;
+}
+
+/* Arrows */
+.arrow {
+  width: 0;
+  heigth: 0;
+  position: relative;
+}
+.arrow-up {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #ccc;
+  top: -10px;
+}
+
+.arrow-down {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #ccc;
+  top: 20px;
+}
+
+.circle {
+  display: block;
+  border-radius: 50%;
+  border: solid 1px #ccc;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.circle-center { margin: 0 auto; }
+.circle-right {
+  position: absolute;
+  right: 10px;
+  bottom: -25px;
+}
