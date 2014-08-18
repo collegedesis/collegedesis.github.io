@@ -1,0 +1,24 @@
+.letter {
+  max-width: 500px;
+  margin: 10px auto;
+  background-color: #f1e9d2;
+  padding: 40px 50px 20px 30px;
+  background-image: url('ricepaper_v3.png');
+  margin-bottom: 20px;
+}
+
+.letter p {
+  font-family: 'gloria hallelujah', cursive;
+  text-align: left;
+  line-height: 1.5em;
+  font-size: 1.1em;
+  margin-bottom: 1.6em;
+}
+
+signature {
+  font-family: 'shadows into light', cursive;
+  font-size: 2em;
+  display: block;
+  width: 100%;
+  text-align: right;
+}

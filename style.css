@@ -1,0 +1,71 @@
+@import url(http://fonts.googleapis.com/css?family=Gentium+Book+Basic|Port+Lligat+Slab|Shadows+Into+Light|Gloria+Hallelujah);
+
+* {margin: 0; padding: 0; box-sizing: border-box;}
+body { text-align:center; margin: 0 auto; padding-bottom: 50px; }
+
+.column-flex {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  /**/
+  align-items: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  /**/
+  justify-content: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  /**/
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+}
+
+html { height: 100%; }
+body { min-height: 100%; }
+
+.thing {
+  flex-basis: 50vh;
+  -webkit-flex-basis: 50vh;
+  -moz-flex-basis: 50vh;
+}
+
+#top {
+  background-image: url('pic2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  border-bottom: solid 3px #FFDC00;
+}
+
+#hero, #letter {
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#hero p {
+  font-size: 1.25em;
+  margin-bottom: 0.75em;
+  line-height: 1.25em;
+  font-family: 'gentium book basic';
+}
+
+#hero hr {
+  border: 0;
+  height: 1px;
+  width: 100%;
+  margin-bottom: 2.5em;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+
+.title {
+  font-family: "Port Lligat Slab", serif;
+  font-size: 1.2em;
+  color: #b2ae73; /* mustard */
+}
+.brown { color: #40210d; /* brown */}
