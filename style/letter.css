@@ -2,23 +2,36 @@
   max-width: 500px;
   margin: 10px auto;
   background-color: #f1e9d2;
-  padding: 40px 50px 20px 30px;
+  padding: 40px 50px 75px 30px;
   background-image: url('/imgs/ricepaper_v3.png');
   margin-bottom: 20px;
 }
 
-.letter p {
+.letter > * {
   font-family: 'gloria hallelujah', cursive;
-  text-align: left;
+}
+
+.letter p {
   line-height: 1.5em;
   font-size: 1.1em;
   margin-bottom: 1.6em;
+  text-align: left;
 }
 
-signature {
+.letter .right {
+  float: right;
+  overflow: auto;
   font-family: 'shadows into light', cursive;
-  font-size: 2em;
+}
+
+.letter .right > *  {
   display: block;
-  width: 100%;
-  text-align: right;
+}
+.letter .right signature {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.letter .right time {
+  font-size: 0.9em;
 }
